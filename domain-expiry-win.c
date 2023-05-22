@@ -70,7 +70,7 @@ int main(int argc, char* argv[]) {
     int daysToExpiration = calculateDaysToExpiration(dateStart);
 
     // Print the result
-    printf("Days to expiration: %d\n", daysToExpiration);
+    printf("%d\n", daysToExpiration);
 
     return 0;
 }
