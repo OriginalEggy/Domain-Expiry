@@ -69,8 +69,8 @@ int main(int argc, char* argv[]) {
     // Calculate the number of days to expiration
     int daysToExpiration = calculateDaysToExpiration(dateStart);
 
-    // Print the result
-    printf("%d: Days To Expiration\n", daysToExpiration);
+    // Print the result in the format expected by PRTG
+    printf("%d:DaysToExpiration\n", daysToExpiration);
 
     return 0;
 }
